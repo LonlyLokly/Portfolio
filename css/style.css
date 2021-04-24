@@ -24,6 +24,28 @@ body {
     margin-bottom: 120px;
     width: 100%;
 }
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.nav {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+}
+.nav-item {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.nav-item:first-child{
+    padding-left: 0;
+}
+.nav-item:last-child{
+    padding-right: 0;
+}
 .nav-link{
     text-decoration: none;
     color:#F3F2F0;
@@ -31,4 +53,17 @@ body {
 }
 .nav-link:hover{
     color:#D40000
+}
+.social {
+    display:flex;
+    justify-content: space-between;
+}
+.project {
+    margin: 0;
+}
+.project-img {
+    width: 16px;
+    height: 12px;
+    display: block;
+    background-image: url(../img/arrow.svg);
 }
